@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Title - Jack Needham</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fff;
+            display: flex;
+        }
+
+        .sidebar {
+            width: 220px;
+            height: 100vh;
+            position: fixed;
+            left: 0;
+            top: 0;
+            padding: 40px 30px;
+            border-right: 1px solid #eee;
+        }
+
+        .profile-pic {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        .sidebar h1 {
+            font-size: 1.5em;
+            margin-bottom: 30px;
+        }
+
+        .sidebar nav {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .sidebar nav a {
+            color: #333;
+            text-decoration: none;
+            margin-bottom: 15px;
+            font-size: 1em;
+        }
+
+        .sidebar nav a:hover {
+            text-decoration: underline;
+        }
+
+        .content {
+            margin-left: 220px;
+            padding: 60px 80px;
+            max-width: 900px;
+        }
+
+        .back-link {
+            color: #666;
+            text-decoration: none;
+            font-size: 0.9em;
+            margin-bottom: 2em;
+            display: inline-block;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
+        h1 {
+            font-size: 2.2em;
+            margin-bottom: 0.3em;
+        }
+
+        .post-date {
+            color: #666;
+            font-size: 0.9em;
+            margin-bottom: 2em;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            margin-top: 2em;
+            margin-bottom: 0.8em;
+        }
+
+        h3 {
+            font-size: 1.2em;
+            margin-top: 1.5em;
+            margin-bottom: 0.5em;
+        }
+
+        p {
+            margin-bottom: 1.2em;
+        }
+
+        a {
+            color: #333;
+        }
+
+        ul, ol {
+            margin-left: 2em;
+            margin-bottom: 1.2em;
+        }
+
+        blockquote {
+            border-left: 3px solid #eee;
+            padding-left: 1.5em;
+            margin: 1.5em 0;
+            color: #666;
+        }
+
+        code {
+            background-color: #f5f5f5;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <aside class="sidebar">
+        <img src="../jackneehdam.jpg" alt="Profile picture" class="profile-pic">
+        <h1>Jack Needham</h1>
+        <nav>
+            <a href="../index.html">About</a>
+            <a href="../writing.html">Writing</a>
+            <a href="../things-i-dont-know.html">Things I don't know</a>
+            <a href="../business-ideas.html">Business Ideas</a>
+            <a href="../misc.html">Misc</a>
+        </nav>
+    </aside>
+
+    <main class="content">
+        <a href="../index.html" class="back-link">← Back</a>
+
+        <article>
+            <h1>Your Post Title Here</h1>
+            <p class="post-date">December 12, 2025</p>
+
+            <p>
+                Write your blog post content here. This template includes all the styling
+                you need for a clean, readable post.
+            </p>
+
+            <h2>Section Heading</h2>
+            <p>
+                You can use headings to organize your thoughts. Just write naturally
+                and the styling will make it look good.
+            </p>
+
+            <h3>Subsection</h3>
+            <p>
+                Add as many paragraphs as you need. The Georgia font makes long-form
+                reading comfortable.
+            </p>
+
+            <blockquote>
+                You can also include quotes like this if needed.
+            </blockquote>
+
+            <p>
+                Lists work too:
+            </p>
+            <ul>
+                <li>First point</li>
+                <li>Second point</li>
+                <li>Third point</li>
+            </ul>
+        </article>
+    </main>
+</body>
+</html>

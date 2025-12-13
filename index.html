@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jack Needham</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fff;
+            display: flex;
+        }
+
+        .sidebar {
+            width: 220px;
+            height: 100vh;
+            position: fixed;
+            left: 0;
+            top: 0;
+            padding: 40px 30px;
+            border-right: 1px solid #eee;
+        }
+
+        .profile-pic {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        .sidebar h1 {
+            font-size: 1.5em;
+            margin-bottom: 30px;
+        }
+
+        .sidebar nav {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .sidebar nav a {
+            color: #333;
+            text-decoration: none;
+            margin-bottom: 15px;
+            font-size: 1em;
+        }
+
+        .sidebar nav a:hover {
+            text-decoration: underline;
+        }
+
+        .content {
+            margin-left: 220px;
+            padding: 60px 80px;
+            max-width: 900px;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            margin-bottom: 1em;
+        }
+
+        h3 {
+            font-size: 1.3em;
+            margin-top: 1.5em;
+            margin-bottom: 0.5em;
+        }
+
+        p {
+            margin-bottom: 1em;
+        }
+
+        a {
+            color: #333;
+        }
+
+        .blog-post {
+            margin-bottom: 2.5em;
+        }
+
+        .post-date {
+            color: #666;
+            font-size: 0.9em;
+            margin-bottom: 0.5em;
+        }
+
+        .blog-post h3 a {
+            text-decoration: none;
+        }
+
+        .blog-post h3 a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            margin-bottom: 4em;
+        }
+    </style>
+</head>
+<body>
+    <aside class="sidebar">
+        <img src="jackneehdam.jpg" alt="Profile picture" class="profile-pic">
+        <h1>Jack Needham</h1>
+        <nav>
+            <a href="index.html">About</a>
+            <a href="writing.html">Writing</a>
+            <a href="things-i-dont-know.html">Things I don't know</a>
+            <a href="business-ideas.html">Business Ideas</a>
+            <a href="misc.html">Misc</a>
+        </nav>
+    </aside>
+
+    <main class="content">
+        <section id="about">
+            <h2>About</h2>
+            <p>
+                I currently spend most of my time running Sanctuary Health, an AI healthcare company. I also help run a clothing brand with my two siblings called 321 and run ultra-marathons. 
+                Current side quests: metascience, making goverment more efficient and a new Bell Labs for Britain. 
+            </p>
+        </section>
+
+        <section id="recent-posts">
+            <h2>Recent Posts</h2>
+
+            <article class="blog-post">
+                <h3><a href="posts/on-motivation-and-service.html">On motivation and service</a></h3>
+                <p class="post-date">July 11, 2025</p>
+                <p>Three approaches to founder motivation and why service might be the most enduring.</p>
+            </article>
+
+            <article class="blog-post">
+                <h3><a href="posts/reflections-on-growth-and-career.html">Reflections on growth and career</a></h3>
+                <p class="post-date">December 5, 2024</p>
+                <p>Personal growth is evolution not sublimation, and why you should do more things.</p>
+            </article>
+
+            <article class="blog-post">
+                <h3><a href="posts/learnings-at-25.html">Learnings at 25</a></h3>
+                <p class="post-date">June 18, 2024</p>
+                <p>Professional and personal lessons on discipline, momentum, and agency.</p>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
