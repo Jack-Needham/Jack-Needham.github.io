@@ -109,6 +109,47 @@
         section {
             margin-bottom: 3em;
         }
+
+        @media (max-width: 768px) {
+            body {
+                flex-direction: column;
+            }
+            .sidebar {
+                position: static;
+                width: 100%;
+                height: auto;
+                padding: 24px 24px 16px;
+                border-right: none;
+                border-bottom: 1px solid #eee;
+            }
+            .profile-pic {
+                width: 64px;
+                height: 64px;
+                margin-bottom: 12px;
+            }
+            .sidebar h1 {
+                margin-bottom: 14px;
+            }
+            .sidebar nav {
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 10px 20px;
+            }
+            .sidebar nav a {
+                margin-bottom: 0;
+            }
+            .content {
+                margin-left: 0;
+                max-width: 100%;
+                padding: 28px 22px 48px;
+            }
+            h1 {
+                font-size: 1.7em;
+            }
+            h2 {
+                font-size: 1.5em;
+            }
+        }
     </style>
 </head>
 <body>
